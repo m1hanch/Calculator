@@ -268,7 +268,7 @@ class Calculator:
         def OnButton(e):
             button['bg'] = HOVER_COLOR
         def OffButton(e):
-            button['bg']=DIGITS_COLOR
+            button['bg']=DIGITS_BUTTON_COLOR
         button.bind('<Enter>', OnButton)
         button.bind('<Leave>', OffButton)
 
